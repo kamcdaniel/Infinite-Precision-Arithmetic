@@ -1,1 +1,2 @@
 # Infinite-Precision-Arithmetic
+In most programming languages, including Java, the integer datatype can only hold numbers up to a maximum value. For example, the maximum value an int in Java can hold is 2^(31) - 1. However, there are many scientific fields which make use of numbers far larger than these, and require the ability to make computations upon them. To accomodate for these uses, we implemented addition, multiplication, and exponentiation by representing positive integers as linked lists.
